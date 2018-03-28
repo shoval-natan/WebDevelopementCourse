@@ -35,7 +35,7 @@ h1 {
     font-family: 'Assistant', sans-serif;
     display: inline-block;
     margin: 50px;
-    font-size: 32pt;
+    font-size: 40pt;
 }
 
 ul {
@@ -60,7 +60,7 @@ ul img {
    opacity:0.6;
    padding:20px;
    border-radius:8px;
-   height:180px;
+   height:100%;
 }
 
 form {
@@ -139,3 +139,11 @@ footer {
                 left: 0;
             }
 
+#sendform {
+    padding: 8px;
+    margin: 5px;
+    background: #005960;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+}
