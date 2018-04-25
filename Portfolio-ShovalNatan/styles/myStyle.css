@@ -1,0 +1,252 @@
+body {
+    background-image: url("../images/dawn.jpg");
+    direction: rtl;
+    background-size: cover;
+    overflow:auto;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Calibri;
+    color:antiquewhite;
+}
+
+footer {
+    text-align:center;
+    margin-top:80px;
+    margin-right:940px;
+    color:white;
+    font-size:16pt;
+
+   }
+
+.social { 
+    
+   font-size:50pt;
+   color:white;
+   padding:8px;
+   text-decoration:none;
+
+
+}
+nav {
+     margin-top:15px;
+    margin-right: 950px;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+
+.currentpage {
+    background-color:white;
+    opacity:1;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+    nav ul li a {
+       
+        font-size: 16pt;
+        display: block;
+        background-color: whitesmoke;
+        color:black;
+        opacity: 0.6;
+        width: 110px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 12px;
+    }
+        nav ul li a:hover {
+            background-color:darkgray;
+        }
+
+        nav ul li a:active {
+            background-color: white;
+        }
+        header {
+           margin-right:80px;
+           margin-bottom:60px;
+        }
+h1 {
+    font-size: 80pt;
+    text-align:right;
+    color:white;
+    }
+
+.scale-in-hor-center {
+    -webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+ 
+article > h1 {
+    font-size:40pt;
+    margin-right:20px;
+}
+
+h2 {
+font-size: 28pt;
+font-family:Calibri;
+margin-right:100px;
+color:white;
+}
+
+#me {
+    color: black;
+    font-size: 18pt;
+    margin-top: 30px;
+    margin-right:730px; 
+    text-align: center;
+}
+h3 {
+    color:black;
+    font-size:18pt;
+   display:inline-flex;
+    
+    text-align:center;
+
+}
+
+
+
+#personalInfo {
+    opacity:0.6;
+    border-radius:15px;
+    margin-right:442px;
+    width:650PX;
+    background-origin:padding-box;
+    background:WHITE;
+    color:black;
+    font-size: 18pt;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+    #personalInfo li img {
+        padding-right: 20px;
+      
+    }
+
+  
+/*כרזת ACT.IL*/
+
+#posterh {
+    margin-right:20px;
+    font-size: 40pt;
+}
+
+#posterinfo {
+
+    margin-top:15px;
+    margin-right:10px;
+    text-align:justify;
+    color: black;
+    font-size: 15pt;
+}
+
+#actilposter {
+text-align:center;
+margin-left:130px;
+    
+}
+
+audio {
+    margin-top:10px;
+    margin-right:600px;
+    text-align:center;
+}
+
+/*פרויקט תקשורת חזותית*/
+
+article > p {
+    width:750px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 345px;
+    color: black;
+    text-align:justify;
+    font-size: 15pt;
+    line-height: 1.2em;
+}
+
+#video {
+    display: inline-block;
+    position: absolute;
+    top:425px;
+    right:750px;
+    border: solid 8px whitesmoke;
+    border-radius: 5px;
+    
+}
+#picture {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 320px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid 8px whitesmoke;
+}
+
+    #picture:hover {
+        opacity: 0.9;
+    } 
+
+   .divs { 
+
+     display: inline-block;
+     margin-bottom:50px;
+   }
+
+    /*דף נחיתה*/
+
+    #landingpage {
+        position:center;
+        margin-right: 250px;
+    }
+
+    #landh1 {
+        margin-right:20px;
+        font-size:40pt;
+    }
+
+   #telem {
+       margin-right:20px;
+   }
